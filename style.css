@@ -1,6 +1,6 @@
 :root {
 /* text */
----azul-muito-escuro: hsl(238, 29%, 16%);
+--azul-muito-escuro: hsl(238, 29%, 16%);
 --vermelho-suave: hsl(14, 88%, 65%);
 /* Background gradient */
 --violete-leve: hsl(273, 75%, 66%);
@@ -10,6 +10,11 @@
 --azul-acizentado-escuro: hsl(240, 6%, 50%);
 /* divisores */
 --azul-acizentado-claro: hsl(240, 5%, 91%);
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+
 }
 
 
