@@ -3,7 +3,7 @@
 --azul-muito-escuro: hsl(238, 29%, 16%);
 --vermelho-suave: hsl(14, 88%, 65%);
 /* Background gradient */
---violete-leve: hsl(273, 75%, 66%);
+--violeta-leve: hsl(273, 75%, 66%);
 --azul-leve: hsl(240, 73%, 65%);
 /* text */
 --azul-acizentado: hsl(237, 12%, 33%);
@@ -13,8 +13,11 @@
 }
 
 body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 620px;
+    max-width: 1440px;
     font-family: 'Kumbh Sans', sans-serif;
-
+    
 }
 
 
