@@ -34,15 +34,21 @@ body {
 }
 
 .imagem-mulher {
-    position: absolute;
+    position: relative;
+    float: left;
     top: 25%;
-    left: 18%;
+    left: -25%;
     width: 20em;
     height: 18em;
 }
 
-.texto {
+.pergunta {
     flex-direction: column;
+    float: right;
+}
+
+.resposta {
+    display: none;
 }
 
 
