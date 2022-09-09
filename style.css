@@ -14,10 +14,35 @@
 
 body {
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    height: 620px;
+    height: 625px;
     max-width: 1440px;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    background-color: var(--azul-acizentado-claro);
+    width: 55%;
+    height: 60%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
     
+}
+
+.imagem-mulher {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 20em;
+    height: 18em;
+}
+
+.texto {
+    flex-direction: column;
 }
 
 
