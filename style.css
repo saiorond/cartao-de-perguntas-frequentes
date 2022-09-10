@@ -14,22 +14,22 @@
 
 body {
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    height: 625px;
-    max-width: 1440px;
+    height: 100vh;
+    width: 100vw;
     font-family: 'Kumbh Sans', sans-serif;   
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .caixa {
-    background-color: white;
-    width: 55%;
-    height: 70%;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
+    background: white url(./images/bg-pattern-desktop.svg) no-repeat 1260% 65%;
+    border-radius: 50px;
+    height: 400px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-gap: 6rem;
     
 }
 
@@ -42,10 +42,12 @@ body {
     height: 20em;
 }
 
-.ilustracao {
-    background-image: url(./images/illustration-box-desktop.svg);
-    background-repeat: no-repeat;
-    align-items: flex-start;
+.imagem-caixa {    
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-position-x: -250px;
+    background-position-y: 400px ;
 }   
 
 .pergunta {
