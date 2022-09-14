@@ -131,34 +131,42 @@ img {
     color: rgb(50, 50, 50);
 }
 
-@media screen and (max-width:700px) {    
+@media (max-width:700px) {    
     body {
-        width: 350px;
-        height: 530px;
+        width: auto;
+        height: 700px;
+    }
+
+    .imagem-mulher {
+        height: 140px;
+        width: 240px;
+        top: -330px;
+        left: 70px;
+    }
+
+    .imagem-caixa {
+        height: 70px;
+        width: 70px;
+        top: -280px;
+        left: 80px;
     }
 
     .caixa {
-        width: 350px;
-        right: 20px;
-        margin-left: 30px;
-        justify-content: center;
+        background: white url(./images/bg-pattern-mobile.svg) no-repeat;
+        width: 360px;
+        height: 550px;
+        display: flex;
         align-items: center;
-        background-position: center;
+        justify-content: center;
+    }
+    
+    .titulo {
+        text-align: center;
+        margin-right: 50px;
     }
 
     .perguntas-e-respostas {
         text-align: center;
-    }
-
-    .imagem-mulher {
-        background: url(./images/illustration-woman-online-mobile.svg) no-repeat;
-        width: 240px;
-        height: 150px;
-        left: 60%;
-        top: -150%;
-    }
-
-    .texto {
-        
+        margin-right: 50px;        
     }
 }
