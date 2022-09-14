@@ -1,12 +1,11 @@
 # FAQ accordion card
 
-# Sobre o projeto
+## Sobre o projeto
 
 Esse projeto é um desafio do Front-End Mentor. É uma aplicação interessante por ser mais uma ferramenta utilizada por muitos sites que, através das perguntas frequentes, desejam ter um informativo de fácil acesso para o usuário com as principais dúvidas sobre seus serviços ou ferramentas. Dito isso, para realizar esse projeto utilizei HTML, CSS e JavaScript. Me aprofundei ainda mais no GRID em CSS e no ForEach em JavaScript.  
 
-# Descrição do projeto
+## Descrição do projeto
 
-## Layout web
 #### Tela Principal:
 
 ![Web index](https://github.com/saiorond/cartao-de-perguntas-frequentes/blob/main/imagens/screencapture-127-0-0-1-5500-index-html-2022-09-13-21_08_11.png)
